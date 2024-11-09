@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/logo/favicon-16x16.png" type="image/x-icon">
+  <title>Abracadabra</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <header>
+    <img src="./assets/logo/logo.png" alt="logo">
+    <h1>Abracadabra</h1>
+    <nav class="nav_desktop">
+      <ul class="list_nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#shop">Productos</a></li>
+        <li><a href="#banner">Categorías</a></li>
+        <li><a href="#new">Lo Nuevo</a></li>
+      </ul>
+    </nav>
+    <div class="bar_mobile">
+     <i class="fa-solid fa-cart-shopping fa-xl"></i>
+     <i class="fa-solid fa-bars fa-xl"></i>
+    </div>
+  </header>
+
+  <section class="search_filter">
+      <h2>Filtrar por::</h2>
+      <select id="search" name="search">
+        <option value="price">Precio</option>
+        <option value="recommended">Recomendados</option>
+        <option value="newest">Más Nuevos</option>
+      </select>
+  </section>
+
+
+  <main>
+    <!-- banners categorias -->
+    <div class="grid_banner" id="banner">
+      <div class="banner_card">
+        <img src="./assets/img/banner_ramas.png" alt="bola de cristal">
+        <div class="banner_text">
+          <h2>Prints</h2>
+          <button>Ver todo</button>
+        </div>
+      </div>
+
+      <div class="banner_card">
+        <img src="./assets/img/banner_colores.png" alt="bola de cristal">
+        <div class="banner_text">
+          <h2>Set Tarot</h2>
+          <button>Ver todo</button>
+        </div>
+      </div>
+
+      <div class="banner_card">
+        <img src="./assets/img/banner_gemas.png" alt="bola de cristal">
+        <div class="banner_text">
+          <h2>Libretas</h2>
+          <button>Ver todo</button>
+        </div>
+      </div>
+
+      <div class="banner_card">
+        <img src="./assets/img/banner_luna.png" alt="bola de cristal">
+        <div class="banner_text">
+          <h2>Accesorios</h2>
+          <button>Ver todo</button>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Grid productos -->
+    <div class="grid_shop" id="shop">
+      <div class="shop_card">
+        <img src="./assets/img/acuario.webp" alt="poster ilustrado signo acuario">
+        <h2>Print Acuario</h2>
+        <p>$8.000</p>
+        <button>Añadir al Carrito</button>
+      </div>
+
+      <div class="shop_card">
+        <img src="./assets/img/scorpio.webp" alt="poster ilustrado signo Escorpio">
+        <h2>Print Escorpio</h2>
+        <p>$8.000</p>
+        <button>Añadir al Carrito</button>
+      </div>
+
+      <div class="shop_card">
+        <img src="./assets/img/cancer.webp" alt="poster ilustrado signo Cancer ">
+        <h2>Print Cancer</h2>
+        <p>$8.000</p>
+        <button>Añadir al Carrito</button>
+      </div>
+
+      <div class="shop_card">
+        <img src="./assets/img/capricornio.webp" alt="poster ilustrado signo Capricornio">
+        <h2>Print Capri</h2>
+        <p>$8.000</p>
+        <button>Añadir al Carrito</button>
+      </div>
+
+      <div class="shop_card">
+        <img src="./assets/img/geminis.webp" alt="poster ilustrado signo Geminis">
+        <h2>Print Geminis</h2>
+        <p>$8.000</p>
+        <button>Añadir al Carrito</button>
+      </div>
+
+      <div class="shop_card">
+        <img src="./assets/img/taurus.webp" alt="poster ilustrado signo Tauro">
+        <h2>Print Tauro</h2>
+        <p>$8.000</p>
+        <button>Añadir al Carrito</button>
+      </div>
+
+      <div class="shop_card">
+        <img src="./assets/img/libra.webp" alt="poster ilustrado signo Libra">
+        <h2>Print Libra</h2>
+        <p>$8.000</p>
+        <button>Añadir al Carrito</button>
+      </div>
+
+      <div class="shop_card">
+        <img src="./assets/img/piscis.webp" alt="poster ilustrado signo piscis">
+        <h2>Print piscis</h2>
+        <p>$8.000</p>
+        <button>Añadir al Carrito</button>
+      </div>
+    </div>
+
+    <!-- Grid categoría nuevos  -->
+    <section class="grid_new" id="new">
+      <h2>Lo Más Nuevo</h2>
+
+      <div class="new_products">
+        <div class="new_card">
+          <div class="img_new">
+            <img src="./assets/img/tarot.png" alt="tarot">
+          </div>
+          <h2>Set Tarot Black</h2>
+          <p>$30.000</p>
+          <button>Añadir al Carrito</button>
+        </div>
+
+          <div class="new_card">
+            <div class="img_new">
+              <img src="./assets/img/libreta.png" alt="libreta lunar">
+            </div>
+            <h2>Libreta Lunar</h2>
+            <p>$15.000</p>
+            <button>Añadir al Carrito</button>
+          </div>
+
+          <div class="new_card">
+            <div class="img_new">
+              <img src="./assets/img/tarot_pink.png" alt="tarot">
+            </div>
+            <h2>Set Tarot Pink</h2>
+            <p>$30.000</p>
+            <button>Añadir al Carrito</button>
+          </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <a href="http://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+    <a href="http://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+    <p>info@abracadabra.cl</p>
+  </footer>
+
+</body>
+</html>
